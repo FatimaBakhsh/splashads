@@ -1,5 +1,5 @@
 # Flutter AdMob Integrated App SplashAds
----
+
 ## Steps to Run the Project
 
 ### 1. Clone the Repository
