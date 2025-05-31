@@ -7,14 +7,14 @@ plugins {
 
 android {
     namespace = "com.example.splashads"
-    compileSdk = 33
+    compileSdk = 34
 
     ndkVersion = "27.0.12077973"
 
     defaultConfig {
         applicationId = "com.example.splashads"
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
