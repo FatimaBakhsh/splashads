@@ -5,7 +5,7 @@
 ### 1. Clone the Repository
    - Open your terminal or command prompt.
    - Run:
-     git clone https://github.com/yourusername/flutter-admob-app.git
+     git clone : https://github.com/FatimaBakhsh/splashads.git
    - Navigate into the project folder:
      cd flutter-admob-app
 
