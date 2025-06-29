@@ -581,7 +581,7 @@
         { symbol: 'ETH/USD', name: 'Ethereum', price: 2650, change24h: -1.2, volume: 15000000000, icon: 'Ξ', color: '#627eea' },
         { symbol: 'ADA/USD', name: 'Cardano', price: 0.45, change24h: 5.8, volume: 800000000, icon: '₳', color: '#0033ad' },
         { symbol: 'DOT/USD', name: 'Polkadot', price: 6.8, change24h: -0.8, volume: 500000000, icon: '●', color: '#e6007a' },
-        { symbol: 'LINK/USD', name: 'Chainlink', price: 15.2, change24h: 3.1, volume: 1200000000, icon: '��', color: '#2a5ada' }
+        { symbol: 'LINK/USD', name: 'Chainlink', price: 15.2, change24h: 3.1, volume: 1200000000, icon: '🔗', color: '#2a5ada' }
     ];
 
     // Functions
@@ -764,7 +764,7 @@
     };
 
     window.toggleTheme = function() {
-        window.currentTheme = window.currentTheme === 'light' ? 'dark' : 'light';
+        window.currentTheme = window.currentTheme === 'light' ? 'dark' : 'dark';
         document.body.style.background = window.currentTheme === 'dark' 
             ? 'linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)'
             : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
@@ -801,4 +801,4 @@
     console.log('🚀 AI Power Chart Trading Platform loaded successfully!');
     console.log('📊 Features: Real-time trading, Portfolio management, Price charts');
     console.log('💡 Try: Click on markets, place orders, toggle theme');
-})();
+})(); 
